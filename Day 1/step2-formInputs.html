@@ -5,11 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- Include name that color library -->
+    <script type="text/javascript" src="https://chir.ag/projects/ntc/ntc.js"></script>
+    
     <script>
         function setInputValue(source, target){
             document.getElementById(target).textContent = source.value;
-            document.getElementById(target).style.backgroundColor = source.value;
+
+            // 1. You need a hex code of the color
+            if(target=="color"){
+                colorName(source,target);
+            }    
         }
+
+        function colorName(source,target){
+            // 2. Rate the color using NTC
+            var n_match  = ntc.name(source.value);
+
+            // 3. Handle the result. The library returns an array with the identified color.
+
+            // 3.A RGB value of closest match 
+            //n_rgb = ntcmatch[0]; 
+            // Text string: Color name e.g "Deep Sea"
+            n_name = n_match[1];
+            // True if exact color match, a Boolean
+            //n_exactname = ntcmatch[1];
+
+            document.getElementById(target).textContent = n_name;
+            //document.getElementById(target).textContent = n_rgb;
+            //document.getElementById(target).textContent = n_exactname;
+            document.getElementById(target).style.color = source.value;
+        }
+
     </script>
 </head>
 <body>
@@ -34,7 +62,7 @@
             </tr>
             <tr>
                 <td> Color </td>
-                <td> <input type="color"  oninput="setInputValue(this,'color')"/> </td>
+                <td> <input type="color" id="c"  oninput="colorName(this,'color')"/> </td>
                 <td> <output id="color"></output></td>
             </tr>
             <tr>
