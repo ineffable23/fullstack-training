@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+        <script>
+        addEventListener("load",init);
+        function init(){
+           document.getElementById("save-button").addEventListener("click",saveData);
+           document.getElementById("show-button").addEventListener("click",showData);
+           document.getElementById("clear-button").addEventListener("click",clearData);
+           document.getElementById("remove-button").addEventListener("click",removeData);
+           document.getElementById("key-button").addEventListener("click",fetchKey);
+           document.getElementById("length-button").addEventListener("click",count);
+           
+        }
+
+
+        function saveData(){
+            localStorage.setItem("userName",document.getElementById("name").value);
+            localStorage.setItem("userAge",document.getElementById("age").value);
+            localStorage.setItem("userPhone",document.getElementById("phone").value);
+            localStorage.setItem("usermail",document.getElementById("mail").value);
+
+        }
+
+        function showData(){
+            
+            document.getElementById("uname").textContent = "User Name : " + localStorage.getItem("userName");
+            document.getElementById("uage").textContent = "User Age : " + localStorage.getItem("userAge");
+            document.getElementById("uphone").textContent = "User Phone : " + localStorage.getItem("userPhone");
+            document.getElementById("uemail").textContent = "User Email : " + localStorage.getItem("usermail");
+            
+        }
+        function clearData(){
+            
+           localStorage.clear();
+           showData();            
+        }
+        function removeData(){
+            localStorage.removeItem(document.getElementById("remove").value);
+            showData();
+            count();
+        }
+
+        function fetchKey(){
+            document.getElementById("ukey").textContent = "Fetched key of given index : "  + localStorage.key(document.getElementById("key").value);
+        }
+        function count(){
+            document.getElementById("ulen").textContent = "Count of stored data : " + localStorage.length;
+        }
+        
+    </script>
+    </script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><label for="name">Name :</label></td>
+            <td> <input id="name" /></td>
+        </tr>
+        <tr>
+            <td><label for="age">Age :</label></td>
+            <td><input type="number" id="age" min="0" max="100" /></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Phone :</label></td>
+            <td><input title="###-####-####" placeholder="###-####-####" pattern="\d{3}-\d{4}-\d{4}" id="phone" /></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email :</label></td>
+            <td> <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" required name="usermail" id="mail" /></td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td><button id="save-button">Store User Data</button></td>
+            <td><button id="show-button">Show User Data</button></td>
+            <td><button id="clear-button">Clear User Data</button></td>
+            <td><button id="length-button">Show Data Count</button></td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <tr>
+            <td><input id="key" type="number" min=0 max=2 placeholder="Select index number:" style="width: 120px" /></td>
+            <td><button id="key-button">Fetch selected Data</button></td>
+        </tr>
+        <tr>
+            <td><input id="remove" type="text" placeholder="Enter Name"></td>
+            <td><button id="remove-button">Remove selected data</button></td>
+        </tr>
+    </table>
+    <div>
+        <p id="uname"></p>
+        <p id="uage"></p>
+        <p id ="uphone"></p>
+        <p id ="ukey"></p>
+        <p id ="ulen"></p>
+
+    <div>
+</body>
+
+</html>
