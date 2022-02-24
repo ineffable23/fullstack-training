@@ -14,4 +14,8 @@
 
 - ```localStorage.key()```
 
-## Assignment 2.
+## Assignment 2: Created boat using canvas
+
+## Assignment 3: Created star using canvas
+
+## Assignment 4: Created triangle using canvas
