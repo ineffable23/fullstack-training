@@ -9,7 +9,8 @@
 
 - Implemented new selectors of CSS 3
 
-![IMG_20220225_215210](https://user-images.githubusercontent.com/49369387/155750490-d35f4aca-c8b5-4b87-841c-c761212a0ae6.jpg)
+![20220225_224539_0000](https://user-images.githubusercontent.com/49369387/155758601-522a3410-1466-4c2f-9605-4aa8b94d6658.png)
+
 # Practice content:
 
 - CSS layouts
