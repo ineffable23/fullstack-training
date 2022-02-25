@@ -56,3 +56,39 @@ th{
 .type1 p:nth-child(3n-3){
     color: #15c2b3;
 }
+
+/* :nth-of-type(#) */
+.type4 p:nth-of-type(4n){
+    color: #9C19E0;
+}
+
+/* :nth-of-type(odd) */
+.type4 p:nth-of-type(odd){
+    color: #FC5404;
+}
+
+/* :nth-last-child(2n)  */
+.type4 p:nth-last-child(3n){
+    color: #9EDE73;
+}
+
+/* :first-of-type  */
+.type5 p:first-of-type{
+    color: #e21f1f;
+}
+
+
+/* :last-of-type  */
+.type5 p:last-of-type{
+    color: #0E49B5;
+}
+
+/* :only-child  */
+.type6 p:only-child{
+    color: #88b50e;
+}
+
+/* :only-of-type() */
+.type5 h3:only-of-type{
+    color: #FF5200;
+}
