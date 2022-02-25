@@ -1,94 +1,143 @@
-body{
-    margin: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
+body {
+  margin: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
-td{
-    padding-right: 30px;
-    text-align: left;
-    font-weight: bold;
+td {
+  padding-right: 30px;
+  text-align: left;
+  font-weight: bold;
 }
 
-th{
-    padding-right: 30px;
-    text-align: left; 
+th {
+  padding-right: 30px;
+  text-align: left;
 }
-
-
 
 /* section 1: Structural pseudo-classes */
 /* first-child  */
-.type1 p:first-child{
-    color: #8843F2;
+.type1 p:first-child {
+  color: #8843f2;
 }
 
 /* last-child  */
-.type1 p:last-child{
-    color: #EF2F88;
+.type1 p:last-child {
+  color: #ef2f88;
 }
 
 /* nth-child(#)  */
-.type1 p:nth-child(4){
-    color: #F47340;
+.type1 p:nth-child(4) {
+  color: #f47340;
 }
 
 /* :nth-child(odd/even)  */
-.type2 p:nth-child(even){
-    color: #049d25;
+.type2 p:nth-child(even) {
+  color: #049d25;
 }
 
-.type2 p:nth-child(odd){
-    color: #ff0505;
+.type2 p:nth-child(odd) {
+  color: #ff0505;
 }
 
 /* nth-child(2n)  */
-.type3 p:nth-child(2n){
-    color: #FF9234;
+.type3 p:nth-child(2n) {
+  color: #ff9234;
 }
 
 /* nth-child(3n+4)  */
-.type1 p:nth-child(3n+7){
-    color: #C7956D;
+.type1 p:nth-child(3n + 7) {
+  color: #c7956d;
 }
 
 /* nth-child(3n-4)  */
-.type1 p:nth-child(3n-3){
-    color: #15c2b3;
+.type1 p:nth-child(3n-3) {
+  color: #15c2b3;
 }
 
 /* :nth-of-type(#) */
-.type4 p:nth-of-type(4n){
-    color: #9C19E0;
+.type4 p:nth-of-type(4n) {
+  color: #9c19e0;
 }
 
 /* :nth-of-type(odd) */
-.type4 p:nth-of-type(odd){
-    color: #FC5404;
+.type4 p:nth-of-type(odd) {
+  color: #fc5404;
 }
 
 /* :nth-last-child(2n)  */
-.type4 p:nth-last-child(3n){
-    color: #9EDE73;
+.type4 p:nth-last-child(3n) {
+  color: #9ede73;
 }
 
 /* :first-of-type  */
-.type5 p:first-of-type{
-    color: #e21f1f;
+.type5 p:first-of-type {
+  color: #e21f1f;
 }
 
-
 /* :last-of-type  */
-.type5 p:last-of-type{
-    color: #0E49B5;
+.type5 p:last-of-type {
+  color: #0e49b5;
 }
 
 /* :only-child  */
-.type6 p:only-child{
-    color: #88b50e;
+.type6 p:only-child {
+  color: #88b50e;
 }
 
 /* :only-of-type() */
-.type5 h3:only-of-type{
-    color: #FF5200;
+.type5 h3:only-of-type {
+  color: #ff5200;
 }
+
+/* :checked() */
+.type7 input:checked + label {
+  color: #0453ca;
+}
+
+/* :enabled  */
+.type8 input:enabled {
+  background-color: #97e5ef;
+}
+
+/* :disabled  */
+.type9 input:disabled {
+  background-color: #f0134d;
+}
+
+/* :disabled  */
+.type10 p::selection {
+  color: #fafba4;
+  background-color: #fe346e;
+}
+
+/* ::selection  */
+.type10 h5::selection {
+  color: #efdcfc;
+  background-color: #8b5e83;
+}
+
+/* :root  */
+:root {
+  background-color: #d5d7ff;
+}
+
+/* :empty */
+section :empty {
+    background-color: #c9ffdf;
+  }
+
+/* :not()  */
+.type12 :not(p) {
+    color: blue;
+  }
+  
+  
+/* direct child  */
+span {
+    background-color: #E6B566;
+  }
+  
+  div > span {
+    background-color: #E8E9A1;
+  }

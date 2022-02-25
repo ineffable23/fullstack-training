@@ -5,6 +5,10 @@
 
 - Inline Block Elements
 
+## Assignment 2:
+
+- Implemented new selectors of CSS 3
+
 # Practice content:
 
 - CSS layouts

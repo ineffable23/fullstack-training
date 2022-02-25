@@ -11,6 +11,7 @@
   </head>
   <body>
     <h1>New Selectors in CSS3</h1>
+    <hr>
     <h2>Structural pseudo-classes</h2>
     <hr>
     <table>
@@ -57,6 +58,20 @@
           </section>
         </td>
       </tr>
+      <tr>
+        <td>
+          <section >
+            <p>:root</p>
+            <p>The :root pseudo-class represents an <br> element that is the root of <br> the document. In HTML, this <br> is always the HTML element.</p>
+         </section>
+        </td>
+        <td>
+          <section class="type11">
+            <!-- :empty -->
+            
+         </section>
+        </td>
+      </tr>
     </table>
     <hr>
     <table>
@@ -94,5 +109,58 @@
         </td>
       </tr>
     </table>
+    <hr>
+    <h2>The UI element states pseudo-classes</h2>
+    <hr>
+    <table>
+      <tr>
+        <td>
+          <section class="type7">
+            <p>:checked()</p>
+            <p>Select your gender:</p>
+            <input type="radio" id="m" name="gender" value="male">
+            <label for="m">male</label>
+            <input type="radio" id="f" name="gender" value="female">
+            <label for="f">female</label>
+        </td>
+        <td>
+          <section class="type8">
+            <p>:enabled()</p>
+            <form>
+              Phone: <input type="tel"><br><br>
+              E-mail: <input type="email" disabled="disabled">
+            </form>
+        </td>
+        <td>
+          <section class="type9">
+            <p>:disabled()</p>
+            <form>
+              Phone: <input type="tel"><br><br>
+              E-mail: <input type="email" disabled="disabled">
+            </form>
+        </td>
+        <td>
+          <section class="type10">
+            <h4>::selection</h4>
+            <h5>Please select this text</h5>
+            <p>Please select this text</p>
+            
+        </td>
+        <td>
+          <section class="type12">
+            <p>:not()</p>
+            <h5> This is h5</h5>
+            <p>This is p</p>
+            
+        </td>
+      </tr>
+    </table>
+    <hr>
+    <div>
+      <span>Span #1, in the div.
+        <span>Span #2, in the span that's in the div.</span>
+      </span>
+    </div>
+    <span>Span #3, not in the div at all.</span>
   </body>
 </html>
