@@ -12,3 +12,13 @@
 
 - It displays the name of the color picked. It displays the color name in the same text color as the color picked.
 - I used ```ntc js (Name that Color JavaScript)``` library for achieving the same.
+
+# Practice content:
+
+- HTML basics
+
+- form Inputs
+
+- validation
+
+- custom validation

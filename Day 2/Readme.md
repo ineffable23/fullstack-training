@@ -25,3 +25,11 @@
 ## Assignment 4: Created triangle using canvas
 
 ![Screenshot (286)](https://user-images.githubusercontent.com/49369387/155470869-25084888-4e57-448b-aa44-8b4d48bb0dde.png)
+
+# Practice content:
+
+- Canvas
+
+- Geolocation
+
+- storage API (local storage)
