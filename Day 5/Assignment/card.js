@@ -31,7 +31,7 @@ function friend() {
     const age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
 
     // initial message
-    let text = `Hey ${name} , Today you turned ${age} `;
+    let text = `Hey ${name} , today you turned ${age} `;
     return text
 }
 
