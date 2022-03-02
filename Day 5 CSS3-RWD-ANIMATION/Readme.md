@@ -1,7 +1,9 @@
 # Tasks performed:
 ## Assignment 1:
 
-- 
+- Responsive Web Design (use max width for images for each article,
+  include header and footer)
+
 
 ## Assignment 2:
 
@@ -13,4 +15,4 @@
 
 - CSS RWB float
 
-- 
+- CSS Media queries
