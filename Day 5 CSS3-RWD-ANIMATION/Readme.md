@@ -7,7 +7,7 @@
 
 ## Assignment 2:
 
-- Implemented several media queries in a comma-separated and other lists using the  @media-rules in CSS as shown below:
+Implemented several media queries in a comma-separated and other lists using the  @media-rules in CSS as shown below:
 
   - ```@media screen and (color), projection and (color) { … }```
   - ```screen and (color) { … }```  
