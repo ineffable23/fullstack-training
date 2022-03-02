@@ -7,7 +7,9 @@
 
 ## Assignment 2:
 
-- 
+- Implement several media queries in a comma-separated list using the an @media-rule in CSS as shown below:
+
+  ```@media screen and (color), projection and (color) { … }```
 
 # Practice content:
 
@@ -16,3 +18,7 @@
 - CSS RWB float
 
 - CSS Media queries
+
+- CSS Transformations
+
+- CSS Animations

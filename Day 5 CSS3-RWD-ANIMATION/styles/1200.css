@@ -1,3 +1,7 @@
 article:nth-last-child(1){
     background-color: tomato;
 }
+
+/* article:last-child{
+    background-color: tomato;
+} */

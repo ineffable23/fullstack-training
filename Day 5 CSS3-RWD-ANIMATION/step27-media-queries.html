@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Media-Queries</title>
   <!-- <style media="print">
         @import url(styles\print.css);
     </style> -->
@@ -13,12 +13,13 @@
   <link media="screen" rel="stylesheet" href="styles\all.css" />
   <link media="screen and (max-width:1200px)" rel="stylesheet" href="styles\1200.css" />
   <link media="screen and (max-width:1100px)" rel="stylesheet" href="styles\1100.css" />
-  <link media="screen and (min-width:950px)" rel="stylesheet" href="styles\landscape.css" />
+  <link media="screen and (orientation : landscape)" rel="stylesheet" href="styles\landscape.css" />
+  <link media="screen and (orientation : portrait)" rel="stylesheet" href="styles\portrait.css" />
   <script>
-    addEventListener("load", function () {
-      setInterval(function{
-        document.getElementById("log").innerHTML = innerWidth + "px";
-      }, 500)
+    addEventListener("load",function () {
+      setInterval(function(){
+        document.getElementById("log").innerHTML = innerWidth+"px";
+      },100)
     })
   </script>
 </head>

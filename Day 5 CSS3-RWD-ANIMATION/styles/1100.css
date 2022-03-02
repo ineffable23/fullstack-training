@@ -1,3 +1,7 @@
+/* article:nth-last-child(2){
+    background-color: green;
+} */
+
 article:nth-last-child(2){
     background-color: tomato;
 }
