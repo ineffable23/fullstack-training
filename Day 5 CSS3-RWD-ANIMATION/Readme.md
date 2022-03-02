@@ -1,15 +1,18 @@
 # Tasks performed:
-## Assignment 1:
+## Assignment 1: Responsive Web Design
 
-- Responsive Web Design (use max width for images for each article,
-  include header and footer)
+- Used max-width property for images for each article
 
+- Included header and footer
 
 ## Assignment 2:
 
-- Implement several media queries in a comma-separated list using the an @media-rule in CSS as shown below:
+- Implemented several media queries in a comma-separated and other lists using the  @media-rules in CSS as shown below:
 
-  ```@media screen and (color), projection and (color) { … }```
+  - ```@media screen and (color), projection and (color) { … }```
+  - ```screen and (color) { … }```  
+  - ```screen and (width:) and (color) { … }```
+  - ```only screen and (width:) { … }```
 
 # Practice content:
 
