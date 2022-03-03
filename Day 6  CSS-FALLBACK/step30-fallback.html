@@ -5,7 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
+    <!--[if lt IE 9]>
+        <script>
+            document.createElement("header");
+            document.createElement("footer");
+            document.createElement("nav");
+            document.createElement("main");
+            document.createElement("section");
+            document.createElement("article");
+        </script>
+          <style>
+            header, main, article, section, nav, footer{
+                display: block;
+            }
+        </style>
+    <![endif]-->
+
+    <!-- The above comment is dynamic, It works based on what version of browser the user is using. -->
+    <style>      
         header{
             background-color: darkslategray;
             /* text-align: center; */
