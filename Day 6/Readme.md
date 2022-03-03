@@ -1,5 +1,5 @@
 # Tasks performed:
-## Assignment 1: 
+## Assignment: 
 [Day 6 Intro-JS](https://github.com/ineffable23/fullstack-training/tree/main/Day%206/Day%206%20Intro-JS)
 
   <!-- `````` -->

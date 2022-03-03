@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Array Methods</title>
+    <style>
+        body{
+            padding-left: 40px;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>JavaScript Arrays</h1>
+    <!-- Implementing array method: arr.concat(arr2) -->
+    <h2>The arr.concat(arr2) Method</h2>
+    <p>The concat() method is used to merge two or more arrays:</p>
+    <p>arr = [[1, 4]]</p>
+    <p>arr2 = [2, [3]]</p>
+    <p id="demo1"></p>
+    <script>
+        const arr = [[1, 4]];
+        const arr2 = [2, [3]];
+        const array = arr.concat(arr2);
+        document.getElementById("demo1").innerHTML = array;
+    </script>
+
+    <!-- Implementing array method: arr.join() -->
+    <h2>The arr.join() Method</h2>
+    <p>The join() method creates and returns a new string by concatenating all of the elements in an array (or an
+        array-like object), separated by commas or a specified separator string:</p>
+    <p>elements = ['My', 'Name', 'Is', 'Harshita', 'Verma']</p>
+    <p id="demo2"></p>
+    <script>
+        const elements = ['My', 'Name', 'Is', 'Harshita', 'Verma'];
+        elements.join();
+        // elements.join('');
+        // elements.join('-');
+        document.getElementById("demo2").innerHTML = elements;
+    </script>
+
+    <!-- Implementing array method: arr.pop() -->
+    <h2>The arr.pop() Method</h2>
+    <p>The pop() method removes the last element from an array and returns that element. </p>
+    <p>coffee = ['espresso', 'latte', 'cappuccino', 'macchiato', 'americano', 'mocha', 'ristretto']</p>
+    <p id="demo3"></p>
+    <script>
+        const coffee = ['espresso', 'latte', 'cappuccino', 'macchiato', 'americano', 'mocha', 'ristretto'];
+        coffee.pop();
+        coffee.pop();
+        document.getElementById("demo3").innerHTML = coffee;
+    </script>
+
+    <!-- Implementing array method: arr.push(value) -->
+    <h2>The arr.push(value) Method</h2>
+    <p>The push() method adds one or more elements to the end of an array and returns the new length of the array:</p>
+    <p>coffee2 =  ['espresso', 'latte', 'cappuccino', 'macchiato']</p>
+    <p> icedCoffee = ['frappuccino', 'nitro']</p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <script>
+        const coffee2 = ['espresso', 'latte', 'cappuccino', 'macchiato'];
+        const icedCoffee = ['frappuccino', 'nitro'];
+        coffee2.push('affogato');
+        document.getElementById("demo4").innerHTML = coffee2;
+        coffee2.push(...icedCoffee);
+        document.getElementById("demo5").innerHTML = coffee2;
+    </script>
+
+    <!-- Implementing array method: arr.unshift(value) -->
+    <h2>The arr.unshift(value) Method</h2>
+    <p>The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array:</p>
+    <p>arrr = ['A', 'B', 'C']</p>
+    <p id="demo6"></p>
+    <script>
+        const arrr = ['A', 'B', 'C'];
+        arrr.unshift('D', 'E');
+        document.getElementById("demo6").innerHTML = arrr;
+    </script>
+
+    <!-- Implementing array method: arr.shift()  -->
+    <h2>The arr.shift() Method</h2>
+    <p>The shift() method removes the first element from an array and returns that removed element:</p>
+    <p>arr3 = ['A', 'B', 'C', 'D']</p>
+    <p id="demo7"></p>
+    <script>
+        const arr3 = ['A', 'B', 'C', 'D'];
+        arr3.shift();
+        document.getElementById("demo7").innerHTML = arr3;
+    </script>
+
+</body>
+
+</html>
