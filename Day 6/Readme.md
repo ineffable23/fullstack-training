@@ -1,9 +1,11 @@
 # Tasks performed:
-## Assignment 1: [Day 6 Intro-JS]()
+## Assignment 1: 
+[Day 6 Intro-JS](https://github.com/ineffable23/fullstack-training/tree/main/Day%206/Day%206%20Intro-JS)
 
   <!-- `````` -->
 
-# Practice content: [Day 6  CSS-FALLBACK](https://github.com/ineffable23/fullstack-training/tree/main/Day%206/Day%206%20%20CSS-FALLBACK)
+# Practice content: 
+[Day 6  CSS-FALLBACK](https://github.com/ineffable23/fullstack-training/tree/main/Day%206/Day%206%20%20CSS-FALLBACK)
 
 - CSS Fallback <br>
   The fallback descriptor can be used to specify a counter style to fall back to if the current counter style cannot create a marker representation for a particular counter value.
