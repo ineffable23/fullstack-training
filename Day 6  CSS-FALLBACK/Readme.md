@@ -4,3 +4,5 @@
   <!-- `````` -->
 
 # Practice content:
+
+- CSS Fallback
