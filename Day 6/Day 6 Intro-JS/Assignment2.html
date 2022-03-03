@@ -13,6 +13,71 @@
     </style>
 </head>
 <body>
+    <h1>JavaScript Array Methods</h1>
+    <!-- Implementing array method: arr.slice(startIndex [endIndex]) -->
+    <h2>The arr.slice(startIndex [endIndex]) Method</h2>
+    <p>The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.</p>
+    <p>animals = ['ant', 'bison', 'camel', 'duck', 'elephant']</p>
+    <p id="demo1"></p>
+    <script>
+        const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+        const animals2 = animals.slice(1, 5);
+        document.getElementById("demo1").innerHTML = animals2;
+    </script>
     
+    <!-- Implementing array method: arr.splice(startIndex, deleteCount, "new val") -->
+    <h2>The arr.splice(startIndex, deleteCount, "new val") Method</h2>
+    <p>The splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.</p>
+    <p>months = ['Jan', 'March', 'April', 'June']</p>
+    <p id="demo2"></p>
+    <script>
+        const months = ['Jan', 'March', 'April', 'June'];
+        months.splice(4, 0, 'Sept');
+        document.getElementById("demo2").innerHTML = months;
+    </script>
+    
+    <!-- Implementing array method: arr.reverse() -->
+    <h2>The arr.reverse() Method</h2>
+    <p>The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.</p>
+    <p>array = [1, 2, 3, 4]</p>
+    <p id="demo3"></p>
+    <script>
+        const array = [1, 2, 3, 4];
+        const reversed = array.reverse();
+        document.getElementById("demo3").innerHTML = reversed;
+    </script>
+
+    <!-- Implementing array method: arr.sort() -->
+    <h2>The arr.sort() Method</h2>
+    <p>The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.</p>
+    <p>letters = ['D', 'W', 'G', 'A', 'V', 'H', 'S']</p>
+    <p id="demo4"></p>
+    <script>
+        const letters = ['D', 'W', 'G', 'A', 'V', 'H', 'S'];
+        letters.sort();
+        document.getElementById("demo4").innerHTML = letters;
+    </script>
+
+    <!-- Implementing array method: arr.toString() -->
+    <h2>The arr.toString() Method</h2>
+    <p>The toString() method returns a string representing the specified array and its elements.</p>
+    <p>array1 = [1, 'a', 5, '1a', 8]</p>
+    <p id="demo5"></p>
+    <script>
+        const array1 = [1, 'a', 5, '1a', 8];
+        array1.toString();
+        document.getElementById("demo5").innerHTML = array1;
+    </script>
+
+    <!-- Implementing array method: arr.toLocaleString() -->
+    <h2>The arr.toLocaleString() Method</h2>
+    <p>The toLocaleString() method returns a string representing the elements of the array. The elements are converted to Strings using their toLocaleString methods and these Strings are separated by a locale-specific String (such as a comma ",")</p>
+    <p>array2 = [1, 'a', 'March']</p>
+    <p id="demo6"></p>
+    <script>
+        const array2 = [1, 'a', 'March'];
+        array2.toString();
+        document.getElementById("demo6").innerHTML = array2;
+    </script>
 </body>
 </html>
