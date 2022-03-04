@@ -22,7 +22,7 @@
             background-color: #EFF0B6;
             width: 100px;
             height: 100px;
-            margin: 50px;
+            margin: 5px;
             float: left;
             font-size: 30px;
             font-family: Arial, Helvetica, sans-serif;
@@ -34,20 +34,27 @@
     <script>
         var count = 1;
         document.addEventListener("DOMContentLoaded", function(){
-            document.getElementsByTagName("button")[0].addEventListener("click", addBoxHandler);
-            document.getElementsByTagName("button")[1].addEventListener("click", removeFirstBoxHandler);
-            document.getElementsByTagName("button")[2].addEventListener("click", removeLastBoxHandler);
+            buttons = document.getElementsByTagName("button");
+             container = document.getElementsByClassName("container")[0];
+             buttons[0].addEventListener("click", addBoxHandler);
+             buttons[1].addEventListener("click", removeFirstBoxHandler);
+             buttons[2].addEventListener("click", removeLastBoxHandler);
+            // document.getElementsByTagName("button")[0].addEventListener("click", addBoxHandler);
+            // document.getElementsByTagName("button")[1].addEventListener("click", removeFirstBoxHandler);
+            // document.getElementsByTagName("button")[2].addEventListener("click", removeLastBoxHandler);
         });
 
         function addBoxHandler(){
             var element = document.createElement("div");
             element.innerText = count;
-            document.getElementsByClassName("container")[0].appendChild(element);
+            container.appendChild(element);
+            // document.getElementsByClassName("container")[0].appendChild(element);
             count++;
         };
 
         function removeFirstBoxHandler(){
-            var element = document.getElementsByClassName("container")[0].firstChild;
+            var element = container.firstChild;
+            // var element = document.getElementsByClassName("container")[0].firstChild;
                if(element){
                 document.getElementsByClassName("container")[0].removeChild(element);
                 count--;
@@ -58,7 +65,8 @@
         };
 
         function removeLastBoxHandler(){
-            var element = document.getElementsByClassName("container")[0].lastChild;
+            var element = container.lastChild;
+            // var element = document.getElementsByClassName("container")[0].lastChild;
                if(element){
                 document.getElementsByClassName("container")[0].removeChild(element);
                 count--;
