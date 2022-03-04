@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: #FFC7C7;
+            width: 800px;
+            height: 400px;
+            padding: 5px;
+            margin: 50px auto;
+            border: 1px solid transparent;
+            overflow: auto;
+            color: orange;
+        }
+
+        .container div{
+            background-color: #8785A2;
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            float: left;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            line-height: 100px;
+            /* vertical-align: baseline; */
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            document.getElementsByTagName("button")[0].addEventListener("click", addBoxHandler);
+            document.getElementsByTagName("button")[1].addEventListener("click", stopAddingBoxHandler);
+        });
+
+        function addBoxHandler(){
+            var element = document.createElement("div");
+            document.getElementsByClassName("container")[0].appendChild(element);
+            console.log("box added")
+        };
+
+        function stopAddingBoxHandler(){
+            document.getElementsByTagName("button")[0].removeEventListener("click", addBoxHandler);
+            document.getElementsByTagName("button")[1].removeEventListener("click", stopAddingBoxHandler);
+            console.log("stopped adding box")
+        };
+
+
+        // window.addEventListener("load", init);
+        // window.removeEventListener("load", init);
+        // function init(){
+        //     document.getElementsByClassName("container")[0].innerHTML = "Selected";
+        // }
+
+
+        // function divOnload(){
+        //     console.log("div is loaded");
+        // }
+
+        // function firstButtonOnload(){
+        //     console.log("first button is loaded");
+        // }
+
+        // function secondButtonOnload(){
+        //     console.log("second button is loaded");
+        // }
+    </script>
+
+<body>
+    <button>Add Box</button>
+    <button>Stop Another Box</button>
+    <hr>
+    <div  class="container"></div>
+</body>
+
+</html>
