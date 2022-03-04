@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: darkslategray;
+            width: 800px;
+            height: 400px;
+            padding: 5px;
+            margin: 50px auto;
+            border: 1px solid transparent;
+            overflow: auto;
+        }
+
+        .container div{
+            background-color: rgb(150, 170, 170);
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            float: left;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            line-height: 100px;
+            /* vertical-align: baseline; */
+        }
+    </style>
+    <script>
+        onload = init;
+        var count = 1;
+        function init(){
+            document.getElementsByTagName("button")[0].addEventListener("click", clickHandler);
+        };
+
+        function clickHandler() {
+            var element = document.createElement("div");
+            element.innerText = count;
+            document.getElementsByClassName("container")[0].appendChild(element);
+            count++;
+        }
+    </script>
+
+<body>
+    <button>Add Box</button>
+    <hr>
+    <div class="container"></div>
+</body>
+
+</html>

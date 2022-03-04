@@ -7,13 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        onload = function(){
-            alert(document.head.childNodes.length);
-        };
-        // addEventListener("load", function(){
-        //     alert(document.body.childNodes.length);
-        //     // alert(document.body.children.length);
-        // })
+        // onload = function(){
+        //     alert(document.head.childNodes.length);
+        // };
+        addEventListener("load", function(){
+            // alert(document.body.childNodes.length);
+            // alert(document.body.children.length);
+            // document.getElementsByTagName("p")[0].innerText = "Selected";
+            // document.body.children[1].innerText = "Selected";
+            // document.body.children[3].children[1].innerText = "Selected";
+            console.log(document.body.children[3].children[0].childNodes[0].nodeValue);
+            console.log(document.body.children[3].children[0].textContent);
+            console.log(document.body.children[3].children[0].innerHTML);
+            console.log(document.body.children[3].children[0].innerText);
+        });
     </script>
 </head>
 
@@ -27,7 +34,7 @@
         ratione perspiciatis libero sunt consequatur temporibus. </p>
 
     <ul>
-        <li>List Item 1</li>
+        <li>List <span>Item 1</span></li>
         <li>List Item 2</li>
         <li>List Item 3</li>
         <li>List Item 4</li>
