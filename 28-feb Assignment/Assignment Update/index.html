@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- adding css  -->
+    <link rel="stylesheet" href="style.css">
+    <title> Birthday Geeting Card</title>
+</head>
+<!-- adding inline css to body  -->
+<body  style="margin-top: 30px; padding-top: 30px;  text-align: center; justify-content: center; background-color:  #D3E4CD; height: 50px;">
+    <!-- taking inputs  -->
+    <form action="#" method="get">
+        <label for="name">Name: </label>
+        <input type="text", id="name">
+        <label for="bdate">Date of Birth: </label>
+        <input type="date", id="bdate">
+        <button id="btn" onclick="card()">Customize</button>
+    </form>
+    <br>
+    <audio src="song.mp3" controls></audio>
+    <br>
+    <br>
+    <!-- adding card using canvas  -->
+    <canvas id="can"></canvas>
+
+    <!-- including javascript  -->
+    <script src="./card.js"></script>
+</body>
+</html>
