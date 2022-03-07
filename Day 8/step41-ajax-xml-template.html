@@ -75,8 +75,7 @@
                 var hero = xhr.responseXML.getElementsByTagName('hl');
                 for (var i = 0; i < hero.length; i++) {
                     document.getElementById('log').innerHTML += "<div class='box'>" + "<h1>" + hero[i]
-                        .querySelector(
-                            'title').innerHTML + "</h1>" + "<h2>" + hero[i].querySelector('firstname').innerHTML +
+                        .querySelector('title').innerHTML + "</h1>" + "<h2>" + hero[i].querySelector('firstname').innerHTML +
                         " " + hero[i].querySelector('lastname').innerHTML + "</h2>" + "<img src='" + hero[i]
                             .querySelector('poster').innerHTML + "' alt='" + hero[i].querySelector('title').innerHTML +
                         "'>" + "<h3>" + "City: " + hero[i].querySelector('city').innerHTML + "</h3>" + "<h3>" +
