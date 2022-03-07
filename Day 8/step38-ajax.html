@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #log {
+            background-color: #ebdecd;
+            width: 800px;
+            height: 300px;
+            padding: 5px;
+            margin: 5px auto;
+            border: 1px solid transparent;
+            overflow: auto;
+            text-align: center;
+            color: #AD8B73;
+        }
+
+        button {
+            width: 300px;
+            display: block;
+            margin: 10px auto;
+        }
+    </style>
+    <script>
+        var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){
+                    console.log("ReadyState value: ",xhr.readyState);
+                    if(xhr.status == 200 && xhr.readyState == 4){
+                        // console.log(xhr.responseText);
+                        document.getElementById("log").innerText = xhr.responseText;
+                    }else{
+                        // console.log(xhr.statusText);
+                        document.getElementById("log").innerText += "XHR Status: "+xhr.status+" | XHR Status Text: "+xhr.statusText;
+                    }
+            };
+        document.addEventListener("DOMContentLoaded", function(){
+            xhr.open("get","data.txt",true);
+            document.getElementsByTagName("button")[0].addEventListener("click", function(){
+                xhr.send();
+            })
+        })
+    </script>
+</head>
+
+<body>
+        <button>Fetch Data</button>
+    <div id="log"></div>
+</body>
+
+</html>
+
+
