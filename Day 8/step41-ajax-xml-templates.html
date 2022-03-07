@@ -7,53 +7,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #hl {
-            background-color: #ebdecd;
-            width: 800px;
-            height: 300px;
+        #log {
+            background-color: #EEEEEE;
+            width: 980px;
+            height: 500px;
+            overflow: auto;
             padding: 50px;
             margin: 5px auto;
-            border: 1px solid transparent;
-            color: #AD8B73;
-            
+            border: 10px solid #D8D2CB;
+            border-style: groove;
+        }
+
+        .box {
+            width: 300px;
+            float: left;
+            margin: 10px;
+            background-color: #398AB9;
+            /* height: 500px; */
+        }
+
+        .box h1 {
+            margin: 5px;
+            text-align: center;
+            padding: 5px;
+            font-family: 'Trebuchet MS';
+            background-color: #D8D2CB;
+            color: #1C658C;
+            font-size: 18px;
+            border: 5px solid #9AD0EC;
+            border-style: groove;
+        }
+
+        .box h2, h3 {
+            margin: 0px;
+            padding: 5px;
+            font-family: 'Trebuchet MS';
+            font-size: 18px;
+            background-color: #398AB9;
+            color: #D8D2CB;
+        }
+
+        .box img {
+            width: 300px;
         }
 
         button {
             width: 300px;
             display: block;
             margin: 10px auto;
+            color: #D8D2CB; 
+            background-color: #1C658C;
+            height: 40px;
+            border: 5px solid #9AD0EC;
+            border-style:outset;
+            font-family: 'Verdana';
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
     <script>
-         var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function(){
-                console.log("ReadyState Value : ",xhr.readyState);
-                if(xhr.status == 200 && xhr.readyState == 4){
-                    var hero = xhr.responseXML.getElementsByTagName("hl");
-                    for(var i = 0; i < hero.length; i++){
-                        // document.getElementById("hl").innerHTML += "<li>"+hero[i].getElementsByTagName("title")[0].firstChild.nodeValue+"</li>";
-                        document.getElementById("hl").innerHTML += "<li>"+hero[i].querySelector("title").innerHTML+"</li>";
-                    }
-                }else{
-                    console.log(xhr.readyState);
-                    // document.getElementById("log").innerText += "XHR Status "+xhr.status+" | XHR Status Text : "+xhr.statusText+"\n";
+        var xhr = new XMLHttpRequest();
+
+        xhr.onreadystatechange = () => {
+            console.log("ReadyState Value: ", xhr.readyState);
+            if (xhr.status == 200 && xhr.readyState == 4) {
+                // console.log(xhr.responseText);
+                var hero = xhr.responseXML.getElementsByTagName('hl');
+                for (var i = 0; i < hero.length; i++) {
+                    document.getElementById('log').innerHTML += "<div class='box'>" + "<h1>" + hero[i]
+                        .querySelector(
+                            'title').innerHTML + "</h1>" + "<h2>" + hero[i].querySelector('firstname').innerHTML +
+                        " " + hero[i].querySelector('lastname').innerHTML + "</h2>" + "<img src='" + hero[i]
+                            .querySelector('poster').innerHTML + "' alt='" + hero[i].querySelector('title').innerHTML +
+                        "'>" + "<h3>" + "City: " + hero[i].querySelector('city').innerHTML + "</h3>" + "<h3>" +
+                        "Ticket Price" + hero[i].querySelector('ticketprice').innerHTML + "</h3>" + "<h3>" +
+                        "Release Date: " + hero[i].querySelector('releasedate').innerHTML + "</h3>" + "</div>";
                 }
-            };
-        document.addEventListener("DOMContentLoaded", function(){
-            document.getElementsByTagName("button")[0].onclick = function(){
-                xhr.open("get","data.xml",true);// 
-                xhr.send();
+            } else {
+                console.log(xhr.readyState);
+                // document.getElementById('hl').innerText +=
+                //     `XHR Status ${xhr.status} | XHR Status Text: ${xhr.statusText}`;
             }
-        })
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementsByTagName("button")[0].addEventListener("click", function () {
+                xhr.open("get", "data.xml", false);
+                xhr.send();
+            });
+        });
     </script>
 </head>
 
 <body>
     <button>Fetch Data</button>
-    <!-- <div id="log"></div> -->
-    <ol id="hl"></ol>
+    <div id="log"></div>
 </body>
 
 </html>
-
-
