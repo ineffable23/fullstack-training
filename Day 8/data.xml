@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <hl>
+    <sl>1</sl>
+    <title>Batman</title>
+    <gender>male</gender>
+    <firstname>Bruce</firstname>
+    <lastname>Wayne</lastname>
+    <city>Gotham</city>
+    <ticketprice>123.4567</ticketprice>
+    <releasedate>1/26/2018</releasedate>
+    <poster>assets/images/batman.jpg</poster>
+    <movieslist>
+      <title>Batman Begins</title>
+      <poster>assets/images/bat1_tn.jpg</poster>
+    </movieslist>
+    <movieslist>
+      <title>Dark Knight</title>
+      <poster>assets/images/bat2_tn.jpg</poster>
+    </movieslist>
+    <movieslist>
+      <title>Dark Knight Raises</title>
+      <poster>assets/images/bat3_tn.jpg</poster>
+    </movieslist>
+  </hl>
+  <hl>
+    <sl>2</sl>
+    <title>Superman</title>
+    <gender>male</gender>
+    <firstname>Clark</firstname>
+    <lastname>Kent</lastname>
+    <city>Metropolis</city>
+    <ticketprice>178.6789</ticketprice>
+    <releasedate>1/27/2018</releasedate>
+    <poster>assets/images/superman.jpg</poster>
+    <movieslist>
+      <title>Superman The Movie</title>
+      <poster>assets/images/super1_tn.jpg</poster>
+    </movieslist>
+    <movieslist>
+      <title>Superman Returns</title>
+      <poster>assets/images/super2_tn.jpg</poster>
+    </movieslist>
+    <movieslist>
+      <title>Superman Man of Steel</title>
+      <poster>assets/images/super3_tn.jpg</poster>
+    </movieslist>
+  </hl>
+  <hl>
+    <sl>3</sl>
+    <title>Ironman</title>
+    <gender>male</gender>
+    <firstname>Tony</firstname>
+    <lastname>Stark</lastname>
+    <city>New York</city>
+    <ticketprice>122</ticketprice>
+    <releasedate>1/27/2018</releasedate>
+    <poster>assets/images/ironman.jpg</poster>
+    <movieslist>
+      <title>Ironman</title>
+      <poster>assets/images/iron1_tn.jpg</poster>
+    </movieslist>
+    <movieslist>
+      <title>Ironman 2</title>
+      <poster>assets/images/iron2_tn.jpg</poster>
+    </movieslist>
+    <movieslist>
+      <title>Ironman 3</title>
+      <poster>assets/images/iron3_tn.jpg</poster>
+    </movieslist>
+  </hl>
+  <hl>
+    <sl>4</sl>
+    <title>Phantom</title>
+    <gender>male</gender>
+    <firstname>Kit</firstname>
+    <lastname>Walker</lastname>
+    <city>Bhangala</city>
+    <ticketprice>98.6456</ticketprice>
+    <releasedate>1/27/2018</releasedate>
+    <poster>assets/images/phantom.jpg</poster>
+    <movieslist>
+      <title>The Phantom Slam Evilz</title>
+      <poster>assets/images/phantom1_tn.jpg</poster>
+    </movieslist>
+  </hl>
+  <hl>
+    <sl>5</sl>
+    <title>Spiderman</title>
+    <gender>male</gender>
+    <firstname>Peter</firstname>
+    <lastname>Parker</lastname>
+    <city>New York</city>
+    <ticketprice>1.3456</ticketprice>
+    <releasedate>9/26/2018</releasedate>
+    <poster>assets/images/spiderman.jpg</poster>
+    <movieslist>
+      <title>Spiderman</title>
+      <poster>assets/images/spider1_tn.jpg</poster>
+    </movieslist>
+    <movieslist>
+      <title>Spiderman 2</title>
+      <poster>assets/images/spider2_tn.jpg</poster>
+    </movieslist>
+    <movieslist>
+      <title>Spiderman 3</title>
+      <poster>assets/images/spider3_tn.jpg</poster>
+    </movieslist>
+  </hl>
+  <hl>
+    <sl>6</sl>
+    <title>Wonder Women</title>
+    <gender>female</gender>
+    <firstname>Princess</firstname>
+    <lastname>Diana</lastname>
+    <city>Amazon</city>
+    <ticketprice>341.3456978978</ticketprice>
+    <releasedate>11/26/2018</releasedate>
+    <poster>assets/images/wonderwoman.jpg</poster>
+    <movieslist/>
+  </hl>
+</root>

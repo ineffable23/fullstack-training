@@ -5,3 +5,7 @@
 # Practice content:
 
 - AJAX Fundamentals
+- AJAX-HTML
+- AJAX-XML
+- AJAX-JSON
+

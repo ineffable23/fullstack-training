@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ajax Fun</title>
     <style>
-        #log {
+         #hl {
             background-color: #ebdecd;
             width: 800px;
             height: 300px;
@@ -18,8 +17,8 @@
             text-align: center;
             color: #AD8B73;
         }
-
-        button {
+        
+        button{
             width: 300px;
             display: block;
             margin: 10px auto;
@@ -28,29 +27,28 @@
     <script>
         var xhr = new XMLHttpRequest();
             xhr.onreadystatechange = function(){
-                    console.log("ReadyState value: ",xhr.readyState);
-                    if(xhr.status == 200 && xhr.readyState == 4){
-                        // console.log(xhr.responseText);
-                        document.getElementById("log").innerText = xhr.responseText;
-                    }else{
-                        // console.log(xhr.statusText);
-                        document.getElementById("log").innerText += "XHR Status: "+xhr.status+" | XHR Status Text: "+xhr.statusText;
+                console.log("ReadyState Value : ",xhr.readyState);
+                if(xhr.status == 200 && xhr.readyState == 4){
+                    var herodata = JSON.parse(xhr.responseText).herolist;
+                    console.log( herodata.length );
+                    for(var i = 0; i < herodata.length; i++){
+                        document.getElementById("hl").innerHTML += "<li>"+herodata[i].title+"</li>";
                     }
+                }else{
+                    console.log(xhr.readyState);
+                }
             };
         document.addEventListener("DOMContentLoaded", function(){
-            document.getElementsByTagName("button")[0].addEventListener("click", function(){
-                xhr.open("get","data.txt",true);
+            document.getElementsByTagName("button")[0].onclick = function(){
+                xhr.open("get","data.json",true);// 
                 xhr.send();
-            })
+            }
         })
     </script>
 </head>
-
 <body>
-        <button>Fetch Data</button>
-    <div id="log"></div>
+    <button>Fetch Data</button>
+    <!-- <div id="log"></div> -->
+    <ol id="hl"></ol>
 </body>
-
 </html>
-
-
