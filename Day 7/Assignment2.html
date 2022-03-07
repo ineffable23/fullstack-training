@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        body{
+            margin: 50px;
+            border: 5px solid #00B4D8;
+            padding: 40px;
+        }
+    </style>
+    <script>
+        window.addEventListener("load", fun2);
+        document.addEventListener("DOMContentLoaded", fun3);
+
+        function fun1() {
+            var newDiv = document.createElement("div");
+            newDiv.innerHTML = "Body Onload";
+            document.body.appendChild(newDiv);
+            console.log("fun1 invoked");
+        }
+
+        function fun2() {
+            var newDiv = document.createElement("div");
+            newDiv.innerHTML = "window.addEventListener load";
+            document.body.appendChild(newDiv);
+            console.log("fun2 invoked");
+        }
+
+        function fun3() {
+            var newDiv = document.createElement("div");
+            newDiv.innerHTML = "document.addEventListener DOMContentLoaded";
+            document.body.appendChild(newDiv);
+            console.log("fun3 invoked");
+        }
+    </script>
+</head>
+
+<body>
+    <body onload="fun1()"></body>
+</body>
+
+</html>
+<!-- 
+OUTPUT:
+document.addEventListener DOMContentLoaded
+window.addEventListener load
+Body Onload -->
