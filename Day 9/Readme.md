@@ -7,5 +7,6 @@
 
 - ECMA Script 6
 - ECMA Script 7
-- ES block scope
+- ES block scope (let\const)
+- Destructuring
 
