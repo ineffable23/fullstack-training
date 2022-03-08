@@ -9,4 +9,7 @@
 - ECMA Script 7
 - ES block scope (let\const)
 - Destructuring
+- Functional improvement
+- Arrow function
+- array Methods
 
