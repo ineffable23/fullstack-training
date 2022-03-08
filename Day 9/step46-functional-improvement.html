@@ -45,8 +45,9 @@
         console.log(adder(5,6,7,8,10));
         */
 
+        /*
         //rest parameters
-        function adder(...nums){
+        function adder(...nums){  //spread syntax (...)
             let total = 0;
             for(let i = 0; i < nums.length; i++){
                 total += nums[i];
@@ -59,6 +60,20 @@
         console.log(adder(5,6,7,8));
         console.log(adder(5,6,7,8,9));
         console.log(adder(5,6,7,8,10));
+        */
+         
+        //spread syntax
+         function adder(...nums){
+            let total = 0;
+            for(let i = 0; i < nums.length; i++){
+                total += nums[i];
+            }
+            return total;
+        };
+        var arr = [1, 2, 3, 4, 5]
+        //console.log(adder(arr[0], arr[1], arr[2], arr[3], arr[4]));
+        console.log(adder(...arr))
+        // console.log(...arr);
     </script>
 </head>
 <body>
