@@ -1,7 +1,7 @@
 # Tasks performed:
 
-## Assignment 1:
-
+## Assignment:
+No assignments today.
 
 # Practice content:
 
