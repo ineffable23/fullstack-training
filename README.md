@@ -20,7 +20,7 @@
 | 11 | 09 Mar, 2022 | [Day 10](https://github.com/ineffable23/fullstack-training/tree/main/Day%2010) |
 | 12 | 10 Mar, 2022 | [Day 11](https://github.com/ineffable23/fullstack-training/tree/main/Day%2011) |
 | 13 | 11 Mar, 2022 | [Day 12](https://github.com/ineffable23/fullstack-training/tree/main/Day-12) |
-| 14 | 14 Mar, 2022 | [Day 13]() |
+<!--| 14 | 14 Mar, 2022 | [Day 13]() |
 | 15 | 0 Mar, 2022 | [Day ]() |
 | 16 | 0 Mar, 2022 | [Day ]() |
 | 17 | 0 Mar, 2022 | [Day ]() |
@@ -33,5 +33,5 @@
 | 24 | 0 Mar, 2022 | [Day ]() |
 | 25 | 0 Mar, 2022 | [Day ]() |
 | 26 | 0 Mar, 2022 | [Day ]() |
-| 27 | 0 Mar, 2022 | [Day ]() |
+| 27 | 0 Mar, 2022 | [Day ]() | -->
  
