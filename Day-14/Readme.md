@@ -2,10 +2,11 @@
 # Tasks performed:
 
 ## Assignment :
-- Didn't complete the assignment due to exam.
+- Read from external JSON data and make a CRUD application
 
 # Practice content:
 - Express
 - pug
 - jade
 - mongoDB
+- connected databse through mongoose

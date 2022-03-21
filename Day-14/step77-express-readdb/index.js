@@ -4,15 +4,18 @@ let app = express();
 
 // schema
 let Schema = mongoose.Schema;
+
 // objectid
 let ObjectId = Schema.ObjectId;
 
+// model
 let Hero = mongoose.model("Hero", Schema({
     id : ObjectId,
     list : Array
 }) );
 
-mongoose.connect("mongodb+srv://admin:password$123@mycluster.6cccx.mongodb.net/onlineDB?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://Ineffable:Zxcvb99@mycluster.f2jpd.mongodb.net/onlinedb?retryWrites=true&w=majority");
+//for security purpose load this into a configuration file and load that file here.
 
 app.get("/",function(req, res){
     let herolist = [];

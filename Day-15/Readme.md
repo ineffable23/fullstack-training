@@ -1,5 +1,9 @@
-#### Day-14
+#### Day-15
 # Tasks performed:
 
 ## Assignment :
-- Didn't complete the assignment due to exam.
+- Create a quiz and result application with admin and user panel.
+
+# Practice content:
+- express
+- mongoose
