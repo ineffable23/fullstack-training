@@ -1,0 +1,12 @@
+Step 1 : create a wireframe (using draw.io)
+Step 2 :
+
+------------------------------------------------------------------------------
+
+Step 1 : create categories
+Step 2 : create answer category for each question which can be 2(single answer [yes or no]) or 4(multiple answers) type of answers
+Step 3 : create questions in categories and select answer type
+
+------------------------------------------------------------------------------
+
+

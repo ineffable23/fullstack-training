@@ -2,7 +2,15 @@
 # Tasks performed:
 
 ## Assignment 1:
+- query all records above 5
+- query all records below 5
+- query aleternate records
+- join
+- merge
+- views
 
+## Assignment 2:
+- create a crud application with MySQL express
 
 # Practice content:
 - socket.io      // by default sockets are read and write (duplex mode)
