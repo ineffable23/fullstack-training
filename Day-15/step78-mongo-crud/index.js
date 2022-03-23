@@ -15,7 +15,7 @@ app.use(express.static(__dirname+"/public"))
 // application configuration
 // ------------------------------------------
 
-// let erorHandler = function(error){ console.log("Error is ", error)}
+// let errorHandler = function(error){ console.log("Error is ", error)};
 
 
 // DB configuration

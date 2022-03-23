@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Result
+    body
+        //- -------------- Navbar -------------- 
+        ul 
+            li
+                a(href="/") User Panel
+            li
+                a(href="/dashboard") Admin Dashboard
+            li
+                a(href="/dashboard") Result
+
+        //- -------------- End Navbar -------------- 
+
+        h1 User Result
+
+        each result in results
+            h5= "Name: " + result.username 
+            h5= "Score: " + result.score
