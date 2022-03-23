@@ -23,9 +23,9 @@
 | 14 | 14 Mar, 2022 | [Day 13](https://github.com/ineffable23/fullstack-training/tree/main/Day-13) | 
 | 15 | 15 Mar, 2022 | [Day 14](https://github.com/ineffable23/fullstack-training/tree/main/Day-14) |
 | 16 | 16 Mar, 2022 | [Day 15](https://github.com/ineffable23/fullstack-training/tree/main/Day-15) |
-| 17 | 17 Mar, 2022 | [ ]() |
-| 18 | 21 Mar, 2022 | [ ]() |
-| 19 | 22 Mar, 2022 | [22-mar-files ](https://github.com/ineffable23/fullstack-training/tree/main/Day-15) |
+| 17 | 17 Mar, 2022 | [17-march-assignment ](https://github.com/ineffable23/fullstack-training/tree/main/21-mar-assignment) |
+| 18 | 21 Mar, 2022 | [21-march-assignment ](https://github.com/ineffable23/fullstack-training/tree/main/21-mar-assignment) |
+| 19 | 22 Mar, 2022 | [22-march-files ](https://github.com/ineffable23/fullstack-training/tree/main/Day-15) |
 | 20 | 23 Mar, 2022 | [Day 16](https://github.com/ineffable23/fullstack-training/tree/main/Day-16) |
 <!-- | 21 | 0 Mar, 2022 | [Day ]() |
 | 22 | 0 Mar, 2022 | [Day ]() |
