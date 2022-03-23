@@ -1,7 +1,14 @@
 Step 1 : create a wireframe (using draw.io)
-Step 2 :
-
+Step 2 : Create the UI
+Step 3 : Create the logic for UI
+-> There will be 3 json files :
+        1. To hold the question type
+        2. To hold the answer type
+        3. It will reference the question type and answer type and create the question object
+-> Start with json then move it to mongoDB or directy start with mongoDB and create 3 different collections
 ------------------------------------------------------------------------------
+
+Admin Dashboard
 
 Step 1 : create categories
 Step 2 : create answer category for each question which can be 2(single answer [yes or no]) or 4(multiple answers) type of answers
@@ -9,4 +16,18 @@ Step 3 : create questions in categories and select answer type
 
 ------------------------------------------------------------------------------
 
+User Panel
 
+Optional : Registration page
+Step 1 : answer the questions created by Admin
+Step 2 : get score for the questions answered
+
+------------------------------------------------------------------------------
+
+Result
+
+It should display : 
+    1. category
+    2. question phase
+    3. answer provided
+    4. total score of answers
