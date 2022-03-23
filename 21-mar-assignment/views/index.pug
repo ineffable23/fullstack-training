@@ -7,13 +7,19 @@ html(lang="en")
         title User Panel
     body
         //- -------------- Navbar -------------- 
-        ul 
-            li
-                a(href="/") User Panel
-            li
-                a(href="/dashboard") Admin Dashboard
-            li
-                a(href="/dashboard") Result
+        nav.navbar.navbar-expand-lg.navbar-light(style='background-color: #F0D9FF;')
+            .container-fluid
+                a.navbar-brand(style='color: #9760ca; padding-left: 20px;') Project
+                button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarSupportedContent.collapse.navbar-collapse
+                    ul.navbar-nav.me-auto.mb-2.mb-lg-0
+                        li.nav-item
+                            a.nav-link.active(href='/') User Panel
+                        li.nav-item
+                            a.nav-link.active(href='/dashboard') Admin Dashboard
+                        li.nav-item
+                            a.nav-link.active(href='/result') Result
 
         //- -------------- End Navbar -------------- 
 
