@@ -28,9 +28,9 @@
             div.innerHTML = '';
             for(let i = 1; i <= val; i++) {
                 let label = `<label for="answer-${i}" class="form-label">Answer - ${i}</label>`
-                let inp = `<input type="text" name="answer-${i}" id="answer-${i}" class="form-control">`
+                let inp = `<input type="text" name="answer-${i}" id="answer-${i}" class="form-control" placeholder="Enter the answer here">`
                 let label2 = `<label for="point-${i}" class="form-label">Answer - ${i} - Point</label>`
-                let point = `<input type="text" name="point-${i}" id="point-${i}" class="form-control">`
+                let point = `<input type="text" name="point-${i}" id="point-${i}" class="form-control" placeholder="Enter the points assigned to this answer here">`
                 div.innerHTML += label;
                 div.innerHTML += inp;
                 div.innerHTML += label2;

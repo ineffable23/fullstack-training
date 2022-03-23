@@ -1,0 +1,20 @@
+{
+  "Categories": [
+    {
+      "category": "A1",
+      "anstype": "Single"
+    },
+    {
+      "category": "A2",
+      "anstype": "Multiple"
+    },
+    {
+      "category": "A3",
+      "anstype": "Single"
+    },
+    {
+      "category": "a1",
+      "anstype": "Single"
+    }
+  ]
+}

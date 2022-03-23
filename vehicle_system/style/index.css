@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    margin-top:10px;
+    background-color: rgb(16, 236, 82);
+    font-size: 35px;
+    padding: 10px;
+}
+form label{
+    margin: 10px;
+    font-weight:bold;
+    font-size: 18px;
+}
+select{
+    background-color: beige;
+    width:400px;
+    height:40px;
+    text-align: center;
+    margin: 10px;
+}
+form button{
+    width:400px;
+    text-align: center;
+    height:40px;
+    margin:10px 10px 10px 300px;
+}
+.heading{
+    font-size: 25px;
+    background-color: rgb(233, 71, 13);
+    text-align: center;
+    padding:10px;
+    color: white;
+}
+div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:bisque;
+}
+tr{
+    text-align: center;
+}
+#hide{
+    display:none;
+}
+
