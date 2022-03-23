@@ -31,7 +31,7 @@ connection.connect(function(error){
         
     // step4 insert values in to table on database
     /*     
-    let sql = "INSERT INTO participants (name, email) VALUES ('Vijay', 'vijay.shivu@gmail.com')";
+    let sql = "INSERT INTO participants (name, email) VALUES ('Harshita', 'harshitav11@gmail.com')";
 
     connection.query(sql, function(error, result){
         if(error){ console.log("Error : ", error)}
