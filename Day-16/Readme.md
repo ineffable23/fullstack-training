@@ -1,8 +1,8 @@
 #### Day-16-MySQL-sockets
 # Tasks performed:
 
-## Assignment :
-- 
+## Assignment 1:
+
 
 # Practice content:
 - socket.io      // by default sockets are read and write (duplex mode)
