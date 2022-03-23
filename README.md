@@ -26,7 +26,7 @@
 | 17 | 17 Mar, 2022 | [ ]() |
 | 18 | 21 Mar, 2022 | [ ]() |
 | 19 | 22 Mar, 2022 | [22-mar-files ](https://github.com/ineffable23/fullstack-training/tree/main/Day-15) |
-| 20 | 23 Mar, 2022 | [Day 16]() |
+| 20 | 23 Mar, 2022 | [Day 16](https://github.com/ineffable23/fullstack-training/tree/main/Day-16) |
 <!-- | 21 | 0 Mar, 2022 | [Day ]() |
 | 22 | 0 Mar, 2022 | [Day ]() |
 | 23 | 0 Mar, 2022 | [Day ]() |
