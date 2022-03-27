@@ -5,4 +5,7 @@
 
 # Practice content:
 - socket.io
-- 
+- typescript
+- src folder : for source files
+- script folder : for output files
+- tsc --init
