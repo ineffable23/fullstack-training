@@ -2,7 +2,7 @@
 # Tasks performed:
 
 ## Assignment :
-<!-- No assignment for today -->
+- Apply bootstrap to ``` Day1-ng-steps/steps ```
 
 # Practice content:
 - Typescript decorators
