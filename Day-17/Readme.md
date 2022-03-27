@@ -9,3 +9,7 @@
 - src folder : for source files
 - script folder : for output files
 - tsc --init
+- Data types
+- function
+- class
+- interface
