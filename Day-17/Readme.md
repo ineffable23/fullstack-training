@@ -2,6 +2,7 @@
 # Tasks performed:
 
 ## Assignment :
+No assignment for today
 
 # Practice content:
 - socket.io
