@@ -24,9 +24,14 @@
   ![Screenshot (363)](https://user-images.githubusercontent.com/49369387/160298308-d36a15db-405f-4833-a633-89428c9f2000.png)
   #### Purpose of the Template
   ![Screenshot (364)](https://user-images.githubusercontent.com/49369387/160298386-4b3babcd-de69-4e1d-bd84-09178644c108.png)
+
+- Bootstrap
   
 - Binding : <br/>
   ![Screenshot (365)](https://user-images.githubusercontent.com/49369387/160298717-0d9eebc4-d7e9-400e-bc38-908ec8219eef.png)
+
+
+
 <!-- 
 - Services
 - Pipe
