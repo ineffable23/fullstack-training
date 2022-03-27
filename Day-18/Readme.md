@@ -13,7 +13,7 @@
 - ```cd <name of the project>```
 - ```ng serve```
 - ```main.ts``` file is the entry point to run in production mode
-- Angular Architecture
+- Angular Architecture <br/>
   ![Screenshot (358)](https://user-images.githubusercontent.com/49369387/160297576-1a72b02c-679b-4860-b3b0-86cff6b1811f.png)
 - Module : a self running program/a building block that contains components, pipes, directives, routes, configurations, services and other modules. <br/>
   ![Screenshot (360)](https://user-images.githubusercontent.com/49369387/160297830-7a7e151f-74a0-4b3c-bc3c-4dea553c3c11.png)
