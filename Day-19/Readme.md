@@ -2,7 +2,7 @@
 # Tasks performed:
 
 ## Assignment :
-<!-- No assignment for today -->
+No assignment for today
 
 # Practice content:
 - Angular 
