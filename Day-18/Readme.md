@@ -2,7 +2,7 @@
 # Tasks performed:
 
 ## Assignment :
-- Apply bootstrap to ``` Day1-ng-steps/steps ```
+- [Apply bootstrap to ``` Day1-ng-steps/steps ``` ](https://github.com/ineffable23/fullstack-training/tree/main/Day-18/Day1-ng-steps/steps/src)
 
 # Practice content:
 - Typescript decorators
