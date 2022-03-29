@@ -6,7 +6,7 @@ No assignment for today
 
 # Practice content:
 - Angular 
-- ``` ng new <project name> --style=css --routing=false ``
+- ``` ng new <project name> --style=css --routing=false ```
 - ``` npm run start ``` can be used in place of ``` ng serve ``` if the terminal got closed/deleted
 - class binding
 - ng class directive
@@ -37,4 +37,4 @@ No assignment for today
 
 - ```ng g application step2-pipes -s -t --routing=false -S --style=css ``` <br> Here we created new file for implenting angular pipes. Pipes are formatters.
 
-- I18n stands for internationalization
+- ```I18n``` stands for internationalization
