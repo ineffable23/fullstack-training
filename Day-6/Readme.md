@@ -1,6 +1,6 @@
 #### Day-6-CSS-FALLBACK
 # Tasks performed:
-[Day 6 Intro-JS](https://github.com/ineffable23/fullstack-training/tree/main/Day%206/Day%206%20Intro-JS)
+[Day 6 Intro-JS](https://github.com/ineffable23/fullstack-training/tree/main/Day-6/Day%206%20Intro-JS)
 
 ## Assignment 1: 
 Implemented following array methods:
