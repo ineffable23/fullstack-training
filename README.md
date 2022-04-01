@@ -31,7 +31,29 @@
 | 22 | 25 Mar, 2022 | [Day 18](https://github.com/ineffable23/fullstack-training/tree/main/Day-18) |
 | 23 | 28 Mar, 2022 | [Day 19](https://github.com/ineffable23/fullstack-training/tree/main/Day-19) |
 | 24 | 29 Mar, 2022 | [Day 20](https://github.com/ineffable23/fullstack-training/tree/main/Day-20) |
-<!-- | 25 | 0 Mar, 2022 | [Day ]() |
-| 26 | 0 Mar, 2022 | [Day ]() |
-| 27 | 0 Mar, 2022 | [Day ]() | -->
+| 25 | 30 Mar, 2022 | [Day 21]() |
+| 26 | 31 Mar, 2022 | [Day 22]() |
+| 27 | 1 Apr, 2022 | [Day 23]() | 
+<!-- | 28 | 0 Apr, 2022 | [Day ]() | 
+| 29 | 0 Apr, 2022 | [Day ]() | 
+| 30 | 0 Apr, 2022 | [Day ]() | 
+| 31 | 0 Apr, 2022 | [Day ]() | 
+| 32 | 0 Apr, 2022 | [Day ]() | 
+| 3 | 0 Apr, 2022 | [Day ]() | 
+| 3 | 0 Apr, 2022 | [Day ]() | 
+| 3 | 0 Apr, 2022 | [Day ]() | 
+| 3 | 0 Apr, 2022 | [Day ]() | 
+| 3 | 0 Apr, 2022 | [Day ]() | 
+| 3 | 0 Apr, 2022 | [Day ]() | 
+| 3 | 0 Apr, 2022 | [Day ]() | 
+| 4 | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() | 
+|  | 0 Apr, 2022 | [Day ]() |  -->
  
