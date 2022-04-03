@@ -10,3 +10,6 @@ No assignment for today
 - Server side data
 - express is required to create a web server
 - cors is required to manage the Cross Origin Resource Sharing requests and errors that may be caused because the angular will be running on different port [4200] and the server will be running on different port [5050].
+- Passing and logic
+- Ajax
+- rxjs : it handles the stream of data.
