@@ -7,8 +7,8 @@
     ViewChild
     ViewChildren
   -->
-- Implement :
-    ContentChild
+- Implement : <br>
+    ContentChild <br>
     ContentChildern
 
 
