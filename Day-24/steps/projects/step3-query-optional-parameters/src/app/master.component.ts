@@ -21,7 +21,7 @@ import { HeroesService } from './heroes.service';
            <td>{{ hero?.biography['full-name'] }}</td>
            <td>
              <a 
-             [routerLink]="['hero',{username:'vijay', city : 'Bangalore'}]" 
+             [routerLink]="['hero',{username:'Harshita', city : 'Bhilai'}]" 
              [queryParams]="{ hid: hero.id, filterOn : filterby }">Click For Detail</a>
            </td>
          </tr>
