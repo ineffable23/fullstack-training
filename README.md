@@ -34,9 +34,9 @@
 | 25 | 30 Mar, 2022 | [Day 21](https://github.com/ineffable23/fullstack-training/tree/main/Day-21) | Angular Data Handling and Angular Dependency Injection |
 | 26 | 31 Mar, 2022 | [Day 22](https://github.com/ineffable23/fullstack-training/tree/main/Day-22) | Angular Custom Modules |
 | 27 | 1 Apr, 2022 | [Day 23](https://github.com/ineffable23/fullstack-training/tree/main/Day-23) | Angular lifecycle |
-<!-- | 28 | 0 Apr, 2022 | [Day ]() | 
-| 29 | 0 Apr, 2022 | [Day ]() | 
-| 30 | 0 Apr, 2022 | [Day ]() | 
+| 28 | 4 Apr, 2022 | [Day 24 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-24) | Angular Routing |
+| 29 | 5 Apr, 2022 | [Day 25 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-25) | Angular CRUD |
+<!-- | 30 |  Apr, 2022 | [Day 26 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-26) | Testing |
 | 31 | 0 Apr, 2022 | [Day ]() | 
 | 32 | 0 Apr, 2022 | [Day ]() | 
 | 3 | 0 Apr, 2022 | [Day ]() | 
