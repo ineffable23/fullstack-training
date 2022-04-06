@@ -3,15 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-aquaman',
   template: `
-    <h1>
-      Aquaman says hii!
-    </h1>
+    <h1> Aquaman Says Hi! </h1>
     <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ut quam saepe, quisquam, quo possimus vel laboriosam earum quos sit hic, ea in similique molestias? Optio excepturi unde repellendus consequuntur?
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quaerat unde inventore repellat natus iure nulla quo perspiciatis ratione? Aliquam aliquid veniam a veritatis nostrum corporis repellendus voluptatem quod dolorem.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum facere neque perferendis ipsam nemo cum vero, voluptates quas quidem dicta qui consequuntur, perspiciatis ipsa illum necessitatibus optio ab, voluptatum dolorem!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat laborum nam quis laboriosam rem accusantium, esse distinctio natus excepturi maxime quibusdam cumque facere voluptatibus maiores laudantium necessitatibus commodi voluptas? Maxime.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat laborum nam quis laboriosam rem accusantium, esse distinctio natus excepturi maxime quibusdam cumque facere voluptatibus maiores laudantium necessitatibus commodi voluptas? Maxime.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat laborum nam quis laboriosam rem accusantium, esse distinctio natus excepturi maxime quibusdam cumque facere voluptatibus maiores laudantium necessitatibus commodi voluptas? Maxime.
     </p>
-   
   `,
   styles: [
   ]
