@@ -2,6 +2,7 @@
 // --------------------------------------------------------------------------------------------------------------
 const express = require("express");
 const app = express();
+const mysql = require("mysql");
 const config = require("./config.json");
 const routes = require("./routes/user.routes");
 const errorHandler = require("./helpers/errorhandler.helper");
@@ -13,7 +14,12 @@ app.use(express.static(__dirname+"/public"))
 .use(express.json())
 .use(routes);
 
+// DB configuration
+// ------------------------------------------
+const URL = config.cloudDB;
 
+// Port
+// ------------------------------------------
 app.listen(config.port,config.host,function(error){
     if(error){errorHandler(error)}
     else{ console.log(`Server is now live on ${config.host}:${config.port}`) }

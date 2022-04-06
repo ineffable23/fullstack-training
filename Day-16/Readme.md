@@ -10,7 +10,7 @@
 - views
 
 ## Assignment 2:
-- create a crud application with MySQL express
+- [create a crud application with MySQL express](https://github.com/ineffable23/fullstack-training/tree/main/Day-16/assignment-2-crud-with-mysql)
 
 # Practice content:
 - socket.io      // by default sockets are read and write (duplex mode)

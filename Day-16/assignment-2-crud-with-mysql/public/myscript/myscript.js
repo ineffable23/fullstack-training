@@ -2,17 +2,17 @@ function refresh(){
     $.ajax({
         url : "/data",
         success : function(res, statusText, jqxhr){
-            $("#usergrid").html("");
-            $(res).each(function(idx){
+            // $("#usergrid").html("");
+            $(res.users).each(function(idx){
                 $("#usergrid").append(`
                 <tr>
-                    <th scope='row'>${idx+1}</th>
-                    <td>${res[idx].username}</td>
-                    <td>${res[idx].usermail}</td>
-                    <td>${res[idx].usercity}</td>
-                    <td><button data-edit="${res[idx]._id}" class="btn btn-warning"> Edit </button></td>
-                    <td><button data-del="${res[idx]._id}" class="btn btn-danger"> Delete </button></td>
-                </tr>`)
+                <th scope="row">${idx + 1}</th>
+                <td>${res["users"][idx].username}</td>
+                <td>${res["users"][idx].useremail}</td>
+                <td>${res["users"][idx].usercity}</td>
+                <td><button data-edit="${res["users"][idx].id}" class="btn btn-warning">Edit User</button></td>
+                <td><button data-del="${res["users"][idx].id}" class="btn btn-danger">Delete User</button></td>
+            </tr>`)
             });
         },
         error : function(jqXHR,statusText,error){
@@ -58,7 +58,7 @@ function editUserHandler(evt){
             console.log("Error ",err)
         }
     })
-    };
+};
 
 function updateUserHandler(){
     let updatedUser = {
@@ -73,6 +73,7 @@ function updateUserHandler(){
             contentType : "application/json",
             dataType : "json",
             success : function(res){
+                console.log(res[0]);
                 $("#edituserbox").hide(500);
                 $("#adduserbox").show(500);
                 $("#edit_username").val('');
