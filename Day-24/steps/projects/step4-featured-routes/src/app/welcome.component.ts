@@ -3,11 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-welcome',
   template: `
-  <!-- <div class="container">
-  <a [routerLink]="['']">Home</a> <br>
-  <a [routerLink]="['heroes']">Hero List</a><br>
-  <a [routerLink]="['movies']">Movie List</a>
-  </div> -->
+  <h4>Welcome to HEROES and MOVIES application.</h4>
   `,
   styles: []
 })
