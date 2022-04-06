@@ -35,7 +35,8 @@ import { HomeComponent } from './home.component';
       { path:"wonderwomen", component: WonderwomenComponent },
       { path:"cyborg", component: CyborgComponent },
       { path:"ironman", redirectTo:"flash", pathMatch:"full"},
-      { path:"**", component: NotfoundComponent }
+      // { path: "ironmanman", redirectTo: "flash", pathMatch:"prefix" },
+      { path:"**", component: NotfoundComponent }  // Here ** is the default route. Keep this always in the end, never in-between as it is used to catch the error if any component is not found.
     ])
   ],
   providers: [],

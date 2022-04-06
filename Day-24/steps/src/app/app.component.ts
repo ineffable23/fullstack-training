@@ -14,6 +14,9 @@ import { Component } from '@angular/core';
       <li> <a href="cyborg">Cyborg</a> </li>
       <li> <a href="hulk">Hulk</a> </li>
     </ul> -->
+    <!-- It is wrong way to use anchor tags as it refreshes the entire pages again and again which causes error. We should use angular navigation instead. -->
+
+    
     <!-- 
     <ul>
       <li> <a routerLink="">Home</a> </li>

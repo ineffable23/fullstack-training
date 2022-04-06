@@ -22,7 +22,7 @@ export class BatmanComponent implements OnInit {
   constructor(private ar:ActivatedRoute){}
 
   ngOnInit(): void {
-    this.quantity = this.ar.snapshot.params['qty'];
+    this.quantity = this.ar.snapshot.params['qty']; // ar is activated route, snapshot takes the snapshot of the parameter when the content is loaded
     this.version = this.ar.snapshot.params['ver'];
   }
 
