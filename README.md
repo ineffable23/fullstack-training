@@ -36,10 +36,10 @@
 | 27 | 1 Apr, 2022 | [Day 23](https://github.com/ineffable23/fullstack-training/tree/main/Day-23) | Angular lifecycle |
 | 28 | 4 Apr, 2022 | [Day 24 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-24) | Angular Routing |
 | 29 | 5 Apr, 2022 | [Day 25 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-25) | Angular CRUD |
-<!-- | 30 |  Apr, 2022 | [Day 26 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-26) | Testing |
-| 31 | 0 Apr, 2022 | [Day ]() | 
-| 32 | 0 Apr, 2022 | [Day ]() | 
-| 3 | 0 Apr, 2022 | [Day ]() | 
+| 30 | 6 Apr, 2022 | [Day 26 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-26) | Testing |
+| 31 | 7 Apr, 2022 | [Day 27 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-27) | Testing, react |
+| 32 | 8 Apr, 2022 | [Day 28 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-28) | React |
+<!-- | 3 | 0 Apr, 2022 | [Day ]() | 
 | 3 | 0 Apr, 2022 | [Day ]() | 
 | 3 | 0 Apr, 2022 | [Day ]() | 
 | 3 | 0 Apr, 2022 | [Day ]() | 
