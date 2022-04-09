@@ -8,7 +8,6 @@ import { HeroService } from './herodetails.service';
     <!-- <p>
       hero works!
     </p> -->
-  <a [routerLink]="['/heroes']">Hero List</a>
   <h2>Information about {{ selectedHero.name }}</h2>
   <img [src]="'assets/' + selectedHero.image.url" alt="selectedHero.name" width="200px" >
   <ul>

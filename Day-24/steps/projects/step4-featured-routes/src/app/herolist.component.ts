@@ -4,9 +4,8 @@ import { HeroService } from './herodetails.service';
 @Component({
   selector: 'app-herolist',
   template: `
-  <a [routerLink]="['/']">Home</a>
-  
   <div class="container">
+    <br>
     <h1>Hero List</h1>
     <hr>
     <table class="table">

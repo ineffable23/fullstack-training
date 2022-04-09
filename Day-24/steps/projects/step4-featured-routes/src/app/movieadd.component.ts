@@ -5,16 +5,20 @@ import { MovieService } from './moviedetails.service';
 @Component({
   selector: 'app-movieedit',
   template: `
+    <br>
+    <br>
+    <h1>Add Movie</h1>
+    <hr>
     <div class="container">
     <div class="mb-3">
-    <label for="mtitle" class="form-label">New Movie Name</label><br>
+    <label for="mtitle" class="form-label">Movie Name</label><br>
     <input type="text" id="mtitle" [(ngModel)]="addMovie.title" class="form-control" ></div>
    <div class="mb-3">
     <label for="year" class="form-label">Release Year</label><br>
     <input type="text" id="year" [(ngModel)]="addMovie.year" class="form-control" >
     </div>
     <div class="mb-3">
-    <label for="director" class="form-label">Edit Director</label><br>
+    <label for="director" class="form-label">Director</label><br>
     <input type="text" id="director" [(ngModel)]="addMovie.director" class="form-control" >
     </div>
     <div class="mb-3">

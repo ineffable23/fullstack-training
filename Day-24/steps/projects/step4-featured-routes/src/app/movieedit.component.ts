@@ -5,12 +5,16 @@ import { MovieService } from './moviedetails.service';
 @Component({
   selector: 'app-movieedit',
   template: `
+    <br>
+    <br>
+    <h1>Edit Movie</h1>
+    <hr>
     <div class="container">
     <div class="mb-3">
-    <label for="mtitle" class="form-label">New Movie Name</label><br>
+    <label for="mtitle" class="form-label">Edit Movie Name</label><br>
     <input type="text" id="mtitle" [(ngModel)]="editMovie.title" class="form-control" ></div>
    <div class="mb-3">
-    <label for="year" class="form-label">Release Year</label><br>
+    <label for="year" class="form-label">Edit Release Year</label><br>
     <input type="text" id="year" [(ngModel)]="editMovie.year" class="form-control" >
     </div>
     <div class="mb-3">
@@ -18,11 +22,11 @@ import { MovieService } from './moviedetails.service';
     <input type="text" id="director" [(ngModel)]="editMovie.director" class="form-control" >
     </div>
     <div class="mb-3">
-    <label for="Genres" class="form-label">Genres</label><br>
+    <label for="Genres" class="form-label">Edit Genres</label><br>
     <input type="text" id="Genres" [(ngModel)]="editMovie.genres" class="form-control" >
     </div>
     <div class="mb-3">
-    <label for="actors" class="form-label">Movie Actors</label><br>
+    <label for="actors" class="form-label">Edit Movie Actors</label><br>
     <input type="text" id="actors" [(ngModel)]="editMovie.actors" class="form-control" >
     </div>
     <button><a [routerLink]="['/movies']">Done</a></button>

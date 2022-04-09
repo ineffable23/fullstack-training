@@ -5,15 +5,15 @@ import { Component } from '@angular/core';
   template: `
   <h1>Movies and Heroes Application</h1>
   <hr>
-  <a [routerLink]="['']">Home</a> | 
-  <!-- <a [routerLink]="['hero']"> Hero</a> |  -->
-  <a [routerLink]="['addhero']">Add Hero</a> | 
-  <a [routerLink]="['edithero']">Edit Hero</a> | 
-  <a [routerLink]="['heroes']">Hero List</a> | 
-  <!-- <a [routerLink]="['movie']">Movie</a> |  -->
-  <a [routerLink]="['movies']">Movie List</a> | 
-  <a [routerLink]="['addmovie']">Add Movie</a> | 
-  <a [routerLink]="['editmovie']">Edit Movie</a>
+  <button [routerLink]="['']">Home</button> | 
+  <!-- <button [routerLink]="['hero']"> Hero</button> |  -->
+  <button [routerLink]="['heroes']">Hero List</button> | 
+  <button [routerLink]="['addhero']">Add Hero</button> | 
+  <button [routerLink]="['edithero']">Edit Hero</button> | 
+  <!-- <button [routerLink]="['movie']">Movie</button> |  -->
+  <button [routerLink]="['movies']">Movie List</button> | 
+  <button [routerLink]="['addmovie']">Add Movie</button> | 
+  <button [routerLink]="['editmovie']">Edit Movie</button>
   <router-outlet></router-outlet>
   `
 })

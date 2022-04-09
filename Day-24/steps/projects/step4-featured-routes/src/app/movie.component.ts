@@ -5,7 +5,6 @@ import { MovieService } from './moviedetails.service';
 @Component({
   selector: 'app-heroadd',
   template: `
-  <a [routerLink]="['/movies']">Movie List</a>
   <div class="container">
   <h2>Information about {{ sMovie.title }}</h2>
   <img [src]="sMovie.posterUrl" [alt]="sMovie.title" width="200px" >

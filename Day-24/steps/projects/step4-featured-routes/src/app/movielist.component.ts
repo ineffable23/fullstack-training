@@ -5,8 +5,8 @@ import { MovieService } from './moviedetails.service';
 @Component({
   selector: 'app-movielist',
   template: `
-  <a [routerLink]="['/']">Home</a>
   <div class="container">
+  <br>
   <h1>Movie List</h1>
   <hr>
   <table class="table">
