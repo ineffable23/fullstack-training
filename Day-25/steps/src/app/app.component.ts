@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { User } from './user.model';
-import { ISchoolUserService } from './user.services';
+import { ISchoolUserService } from './user.service';
+ 
+//JSONP, XMLP, whitelist, crossdomain.xml
 
 @Component({
   selector: 'app-root',
-  template: `
+  template : `
     <div class="container">
     <div>
         <h2>Add New User</h2>
@@ -15,7 +17,7 @@ import { ISchoolUserService } from './user.services';
         </div>
         <div class="mb-3">
           <label for="usermail" class="form-label">User Mail</label>
-          <input name="umail" #umail="ngModel" [(ngModel)]="newuserdata.usermail" class="form-control" id="usermail">
+          <input name="umail" #umail="ngModel" [(ngModel)]="newuserdata.useremail" class="form-control" id="usermail">
         </div>
         <div class="mb-3">
           <label for="usercity" class="form-label">User City</label>
@@ -33,7 +35,7 @@ import { ISchoolUserService } from './user.services';
         </div>
         <div class="mb-3">
           <label for="edit_usermail" class="form-label">Update User Mail</label>
-          <input name="umail" #edit_umail="ngModel" [(ngModel)]="userToUpdate.usermail" class="form-control" id="edit_usermail">
+          <input name="umail" #edit_umail="ngModel" [(ngModel)]="userToUpdate.useremail" class="form-control" id="edit_usermail">
         </div>
         <div class="mb-3">
           <label for="edit_usercity" class="form-label">Update User City</label>
@@ -44,7 +46,7 @@ import { ISchoolUserService } from './user.services';
       </div>
       <ul>
         <li>User Name : {{ newuserdata.username }}</li>
-        <li>User Mail : {{ newuserdata.usermail }}</li>
+        <li>User Mail : {{ newuserdata.useremail }}</li>
         <li>User City : {{ newuserdata.usercity }}</li>
       </ul>
       <hr>
@@ -70,7 +72,7 @@ import { ISchoolUserService } from './user.services';
               <span *ngIf="od">Odd User</span> 
               <span *ngIf="ev">Even User</span>  -->
             </td>
-            <td>{{ user.usermail }}</td>
+            <td>{{ user.useremail }}</td>
             <td>{{ user.usercity }}</td>
             <td>
               <button (click)="editUser(user)" class="btn btn-warning">Edit</button>
@@ -91,35 +93,35 @@ export class AppComponent {
   userdata:Array<User> = [
     { 
       username : 'Batman',
-      usermail : 'bruce@wayne.com',
+      useremail : 'bruce@wayne.com',
       usercity : 'Gotham' 
     }
   ];
   newuserdata:User = { 
     username : '',
-    usermail : '',
+    useremail : '',
     usercity : '' 
   };
   userToUpdate = { 
     username : '',
-    usermail : '',
+    useremail : '',
     usercity : '',
     _id : '',
   };
   constructor( private us:ISchoolUserService ){}
   reload(){
-    this.us.getUsers().subscribe((res:any) => this.userdata = res);
+    this.us.getUser().subscribe((res:any) => this.userdata = res.users);
   }
   ngOnInit(){
     this.reload();
   }
   addNewUser(){
-    this.us.postUsers(this.newuserdata).subscribe(res => {
+    this.us.postUser(this.newuserdata).subscribe(res => {
       this.reload();
       console.log(res);
       this.newuserdata = { 
         username : '',
-        usermail : '',
+        useremail : '',
         usercity : '' 
       };
     })
@@ -136,7 +138,7 @@ export class AppComponent {
       this.reload();
       this.userToUpdate = { 
         username : '',
-        usermail : '',
+        useremail : '',
         usercity : '',
         _id : '',
       };
