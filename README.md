@@ -39,8 +39,8 @@
 | 30 | 6 Apr, 2022 | [Day 26 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-26) | Testing |
 | 31 | 7 Apr, 2022 | [Day 27 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-27) | Testing, react |
 | 32 | 8 Apr, 2022 | [Day 28 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-28) | React |
+| 33 | 11 Apr, 2022 | [Day 29 ]() | 
 <!-- | 3 | 0 Apr, 2022 | [Day ]() | 
-| 3 | 0 Apr, 2022 | [Day ]() | 
 | 3 | 0 Apr, 2022 | [Day ]() | 
 | 3 | 0 Apr, 2022 | [Day ]() | 
 | 3 | 0 Apr, 2022 | [Day ]() | 
