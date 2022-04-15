@@ -38,13 +38,13 @@
 | 29 | 5 Apr, 2022 | [Day 25 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-25) | Angular CRUD |
 | 30 | 6 Apr, 2022 | [Day 26 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-26) | Testing |
 | 31 | 7 Apr, 2022 | [Day 27 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-27) | Testing, react |
-| 32 | 8 Apr, 2022 | [Day 28 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-28) | React |
-| 33 | 11 Apr, 2022 | [Day 29 ]() | 
+| 32 | 8 Apr, 2022 | [Day 28 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-28) | React Basic |
+| 33 | 11 Apr, 2022 | [Day 29 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-29) | React Intermediate | 
+| 34 | 12 Apr, 2022 | [Day 30 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-30) | React Continued | 
+| 35 | 13 Apr, 2022 | [Day 31 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-31) | React Continued | 
+| 36 | 14 Apr, 2022 | [Day 32 ](https://github.com/ineffable23/fullstack-training/tree/main/Day-32) | Redux |  
+| 37 | 15 Apr, 2022 | [Day 33 ](https://github.com/ineffable23/fullstack-training/tree/main/firebase-setup) | Firebase |
 <!-- | 3 | 0 Apr, 2022 | [Day ]() | 
-| 3 | 0 Apr, 2022 | [Day ]() | 
-| 3 | 0 Apr, 2022 | [Day ]() | 
-| 3 | 0 Apr, 2022 | [Day ]() | 
-| 3 | 0 Apr, 2022 | [Day ]() | 
 | 3 | 0 Apr, 2022 | [Day ]() | 
 | 4 | 0 Apr, 2022 | [Day ]() | 
 |  | 0 Apr, 2022 | [Day ]() | 
